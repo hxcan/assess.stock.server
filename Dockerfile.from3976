@@ -1,0 +1,15 @@
+FROM hxcan/assess-stock-serrver:3976
+
+COPY StockDataTools ./StockDataTools/
+
+COPY AssessStock ./AssessStock/
+
+COPY StockCostCalculatorRuby ./StockCostCalculatorRuby/
+
+COPY StockHistoryzzapun ./StockHistoryzzapun/
+
+COPY EncryptionManager ./EncryptionManager/
+
+COPY FieldCode.ty ./FieldCode.ty/
+
+COPY *.rb ./
